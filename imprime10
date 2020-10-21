@@ -25,7 +25,8 @@ int main(){
     cin >> profundidade;
 
     volume = volumeCubo(largura,altura,profundidade);
-
+    
+    cout << endl;
     cout << endl;
     cout << "O Volume encontrado foi: " << volume << " " << "m3";
     cout << endl;
