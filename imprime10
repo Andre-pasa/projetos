@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+volumeCubo(float x, float y, float z){
+
+    float vol;
+    vol = x * y * z;
+    return vol;
+
+}
+
+int main(){
+    float largura, altura, profundidade, volume;
+
+    cout << "Programa para calcular o Volume de um Cubo";
+    cout << endl;
+    cout << "Digite o valor dos lados do cubo em metros";
+    cout << endl;
+    cout << "Largura: ";
+    cin >> largura;
+    cout << "Altura: ";
+    cin >> altura;
+    cout << "Profundidade: ";
+    cin >> profundidade;
+
+    volume = volumeCubo(largura,altura,profundidade);
+
+    cout << endl;
+    cout << "O Volume encontrado foi: " << volume << " " << "m3";
+    cout << endl;
+
+
+return 0;
+}
